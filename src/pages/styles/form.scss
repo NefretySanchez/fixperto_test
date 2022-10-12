@@ -1,0 +1,44 @@
+input {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.input-search {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  input {
+    border: 1px solid #ddd;
+    float: left;
+    color: #99a3a4;
+    padding: 5px;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+  }
+  span {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 17px;
+    z-index: 1;
+    color: #99a3a4;
+  }
+}
+
+.section-rigth {
+  float: right;
+}
+
+.section-left {
+  margin-left: 20px;
+}
+
+.form-group {
+  display: grid;
+  margin-bottom: 20px;
+  label {
+    font-weight: 600
+  }
+}
